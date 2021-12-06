@@ -32,3 +32,8 @@ console.log(change);
 let nam = document.querySelector("#anchor a");
 let attr = nam.attributes[0].name;
 console.log(attr);
+
+//removeAttribute
+let rem = document.querySelector("#anchor a");
+rem.removeAttribute('title');
+console.log(rem);
