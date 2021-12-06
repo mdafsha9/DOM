@@ -22,7 +22,13 @@ let anc = document.querySelector("#anchor a");
 anc.setAttribute('href', 'https://www.facebook.com/');
 console.log(anc);
 
-//Attributes
+//Attributes,
+//.value
 let att = document.querySelector("#anchor a");
 let change = att.attributes[0].value="https://youtube.com";
 console.log(change);
+
+//Attributes//.name
+let nam = document.querySelector("#anchor a");
+let attr = nam.attributes[0].name;
+console.log(attr);
