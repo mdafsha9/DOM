@@ -21,3 +21,8 @@ console.log(header);
 let anc = document.querySelector("#anchor a");
 anc.setAttribute('href', 'https://www.facebook.com/');
 console.log(anc);
+
+//Attributes
+let att = document.querySelector("#anchor a");
+let change = att.attributes[0].value="https://youtube.com";
+console.log(change);
