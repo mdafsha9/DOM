@@ -1,11 +1,20 @@
 //iterate elements
 
 
-const list = document.getElementsByTagName("a");
+const lists = document.getElementsByTagName("a");
 
-for(let i =0; i<list.length; i++){
-  console.log(list[i]);
-  const lists = list[i];
-  lists.style.color = "orange";
-  lists.style.textDecoration = "none";
+
+//using simple for loop
+for(let i =0; i<lists.length; i++){
+  console.log(lists[i]);
+  const list = lists[i];
+  list.style.color = "orange";
+  list.style.textDecoration = "none";
+}
+
+//using for of loop
+
+
+for(let list of lists ){
+  console.log(list);
 }
