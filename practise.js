@@ -20,3 +20,9 @@ for(let i=0; i<node1.length; i++){
 for(let node2 of node1){
   console.log(node2);
 }
+
+
+const anchor = document.querySelector("#anchor a");
+console.log(anchor.getAttribute("href"));
+anchor.setAttribute("href", "https://www.w3schools.com");
+console.log(anchor.getAttribute("href"));
